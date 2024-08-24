@@ -1,3 +1,4 @@
+// FizzBuzz function
 function fizzBuzz(number) {
   if (number === 0) {
     return "0";
@@ -18,10 +19,8 @@ function fizzBuzz(number) {
 document
   .getElementById("calculateButton")
   .addEventListener("click", function () {
-    // Get the input values
     const input1 = parseInt(document.getElementById("input1").value);
     const input2 = parseInt(document.getElementById("input2").value);
-
     const inputForm = document.getElementById("inputForm");
     const listResult = document.getElementById("listResult");
     const output = document.createElement("p");
